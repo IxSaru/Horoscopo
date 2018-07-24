@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ViewFlipper
+        android:id="@+id/vf_basic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include android:id="@+id/login" layout="@layout/activity_main_basic_1" />
+        <include android:id="@+id/view" layout="@layout/activity_main_basic_2" />
+    </ViewFlipper>
+</android.support.constraint.ConstraintLayout>
